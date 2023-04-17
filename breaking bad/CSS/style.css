@@ -1,0 +1,44 @@
+body {
+    background-image: url(../img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: TIPO;
+}
+
+#POSTER {
+    width: 700px;
+    height: 300px;
+    border: 10px;
+    border-color: brown;
+    border-style: outset;
+    border-radius: 22px;
+}
+
+@font-face {
+    font-family: TIPO;
+    src: url(../Font/Heart\ Breaking\ Bad.otf);
+}
+
+#VIDEO {
+    width: 550px;
+    height: 300px;
+}
+
+h1 {
+    color: white;
+    font-size: 60px;
+    text-decoration: none;
+    font-family: TIPO;
+}
+
+legend {
+    font-size: 20px;
+}

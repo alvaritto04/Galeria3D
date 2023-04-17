@@ -1,0 +1,141 @@
+body {
+    align-items: center;
+    text-align: center;
+    font-family: EJ4;
+}
+
+.SistemasGestion {
+    width: 700px;
+    height: 20px;
+    font-size: 15px;
+    top: 18px;
+    left: 300px;
+    position: relative;
+    text-align: left;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-family: monospace;
+}
+
+.LADRILLO {
+    background-color: chocolate;
+    top: 16px;
+    left: 300px;
+    width: 700px;
+    height: 150px;
+    position: relative;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-family: EJ4;
+}
+
+.VERDEBOSQUE {
+    background-color: #1da275;
+    top: 16px;
+    left: 300px;
+    width: 700px;
+    height: 300px;
+    position: relative;
+    color: black;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-family: EJ4;
+}
+
+.AZULCIELO {
+    background-color: #3ba2dc;
+    top: 16px;
+    left: 300px;
+    width: 700px;
+    height: 350px;
+    position: relative;
+    color: black;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-family: EJ4;
+}
+
+.NEGRO {
+    background-color: black;
+    top: 16px;
+    left: 300px;
+    width: 700px;
+    height: 280px;
+    position: relative;
+    color: white;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    font-family: EJ4;
+}
+
+.FOTOS {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.FOTOMEDIO {
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+
+.CMS {
+    color: white;
+    font-size: 30px;
+    top: 1px;
+    position: absolute;
+    left: 68px;
+}
+
+.DUPRAL {
+    color: white;
+    font-size: 30px;
+    top: 1px;
+    position: absolute;
+    left: 68px;
+}
+
+.WORDPRESS {
+    color: white;
+    font-size: 30px;
+    top: 1px;
+    position: absolute;
+    left: 68px;
+}
+
+#FLECHAVERDE {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 240px;
+    left: 580px;
+}
+
+#FLECHAAZUL {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 255px;
+    left: 585px;
+}
+
+@font-face {
+    font-family: EJ4;
+    src: url(font/fontawesome-webfont.woff);
+}
+
+p {
+    font-size: 17px;
+    margin-right: 80px;
+    margin-left: 80px;
+    text-align: left;
+    margin-top: 33px;
+}

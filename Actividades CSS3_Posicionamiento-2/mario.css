@@ -1,0 +1,53 @@
+body {
+    align-items: center;
+    text-align: center;
+}
+
+.CuadradoPrincipal {
+    width: 400px;
+    height: 300px;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #C00;
+    background-color: #a4d3ff;
+    position: relative;
+    left: 450px;
+    background-image: url(img/f03.png);
+    background-repeat: repeat-x;
+}
+
+.CASTILLO {
+    position: absolute;
+    bottom: 8px;
+    left: 270px;
+}
+
+.ImagenCastillo {
+    height: 150px;
+}
+
+.SUELO {
+    background-image: url(img/f01.png);
+    top: 286px;
+    position: relative;
+    width: 400px;
+    height: 15px;
+    background-repeat: repeat-x;
+}
+
+.TUBERIA {
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+}
+
+.LOGO {
+    position: absolute;
+    top: 23px;
+    left: 55px;
+    height: 180px;
+}
+
+.ImagenTuberia {
+    height: 100px;
+}

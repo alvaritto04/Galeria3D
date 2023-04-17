@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 1</title>
+</head>
+
+<body>
+    <form name="EjemploFormulario" method="post" action="mailto:raul.rodriguez@universidadeuropea.es">
+        <fieldset>
+            <legend align="center">REGISTRO WEB</legend>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                Nombre: <input type="text" name="" id="" required>
+                <br><br> Apellido1: <input type="text" name="" id="" required>
+                <br><br> Apellido2: <input type="text" name="" id="" required>
+                <br><br> Dirección Postal: <textarea placeholder="Introduzca la dirección Postal" rows="3,5" cols="17" name="texto"></textarea>
+                <br><br> Codigo Postal: <input type="text" name="" id="" maxlength="5" required>
+                <br><br> Población: <input type="text" name="" id="" required>
+                <br><br> Provincia: <input type="text" name="" id="" required>
+                <br><br> Pais: <input type="text" name="" id="" maxlength="10" required>
+                <br><br> Edad: <input list="edad">
+                <datalist id="edad">
+                        <option value="18-20"></option>
+                        <option value="21-23"></option>
+                        <option value="24-26"></option>
+                        <option value="27-29"></option>
+                        <option value="30-32"></option>
+                        <option value="33-35"></option>
+                        <option value="36-38"></option>
+                        <option value="39-41"></option>
+                        <option value="42-44"></option>
+                        <option value="45-47"></option>
+                        <option value="48-50"></option>
+                        <option value="51-53"></option>
+                        <option value="54-56"></option>
+                        <option value="57-59"></option>
+                        <option value="60-62"></option>
+                        <option value="63-65"></option>
+                        <option value="66-68"></option>
+                        <option value="69-71"></option>
+                        <option value="72-74"></option>
+                        <option value="75-77"></option>
+                        <option value="78-80"></option>
+                        <option value="81-83"></option>
+                        <option value="84-86"></option>
+                        <option value="87-89"></option>
+                        <option value="90-92"></option>
+                        <option value="93-95"></option>
+                        <option value="96-98"></option>
+                        <option value="+99"></option>
+                </datalist>
+                <br><br> Fecha de Nacimiento <input type="date" required>
+                <br><br> SEXO:
+                <input type="radio" name="genero" id="" value="H">Hombre
+                <input type="radio" name="genero" id="" value="M">Mujer
+                <br><br> Estudios:
+                <input type="checkbox" name="estudios" value="Sin Estudios" id="">Sin Estudios
+                <input type="checkbox" name="estudios" value="ESO" id="">ESO
+                <input type="checkbox" name="estudios" value="BACHILLER" id="">BACHILLER
+                <input type="checkbox" name="estudios" value="Grado Superior" id="">Grado Superior
+                <input type="checkbox" name="estudios" value="Grado Medio" id="">Grado Medio
+                <input type="checkbox" name="estudios" value="Prueba de Acceso" id="">Pueba de Acceso
+                <input type="checkbox" name="estudios" value="Grado Master" id="">Grado Master
+                <input type="checkbox" name="estudios" value="Doctorado" id="">Doctorado
+            </fieldset>
+            <fieldset>
+                <legend>Datos Alta Usuario</legend>
+                Correo Electronico <input type="email" name="" id="" required>
+                <br><br> Pasword: <input type="password" minlength="4" maxlength="8" required>
+                <br><br>Repetir Pasword: <input type="password" minlength="4" maxlength="8" required>
+            </fieldset>
+            <fieldset>
+                <legend>OTROS</legend>
+                Carnet de Conducir:
+                <input type="radio" name="carnet" id="" value="SI">SI
+                <input type="radio" name="carnet" id="" value="NO">NO
+
+            </fieldset>
+            ACEPTAR LAS CONDICIONES DE USO: <input type="radio" name="aceptar" id="" value="aceptar" required>Aceptar
+            <br>
+            <input type="submit" value="ENVIAR">
+            <input type="reset" value="BORRAR">
+        </fieldset>
+        </fieldset>
+    </form>
+</body>
+
+</html>

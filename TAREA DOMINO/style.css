@@ -1,0 +1,172 @@
+body {
+    background-color: green;
+    text-align: center;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 200px;
+    background: whitesmoke;
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+    top: 40px;
+}
+
+.cuadrado1 {
+    width: 100px;
+    height: 200px;
+    background: whitesmoke;
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+    top: 40px;
+}
+
+hr {
+    width: 70px;
+    position: absolute;
+    left: 13%;
+    top: 90px;
+    border-color: black;
+}
+
+.circuloCENTRO {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 70%;
+    left: 40%;
+}
+
+.ArribaIzquierda {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 9%;
+    left: 19%;
+}
+
+.AbajoDerecha {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 32%;
+    left: 61%;
+}
+
+.CENTRO {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 21%;
+    left: 39%;
+}
+
+.ArribaDerecha {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 9%;
+    left: 60%;
+}
+
+.AbajoIzquierda {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 32%;
+    left: 18%;
+}
+
+.circulo6_1 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 70%;
+    left: 18%;
+}
+
+.circulo6_2 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 70%;
+    left: 60%;
+}
+
+.circulo6_3 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 58%;
+    left: 60%;
+}
+
+.circulo6_4 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 82%;
+    left: 60%;
+}
+
+.circulo6_5 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 82%;
+    left: 18%;
+}
+
+.circulo6_6 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 58%;
+    left: 19%;
+}
+
+.CI6 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 20%;
+    left: 19%;
+}
+
+.CD6 {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-color: black;
+    border-radius: 100%;
+    top: 20%;
+    left: 60%;
+}

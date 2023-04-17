@@ -1,0 +1,18 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+    font-family: "Comic Sanz MS";
+}
+
+h1 {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+}
+
+p {
+    /*Esto es un comentario en CSS*/
+    font-size: 22px;
+    color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

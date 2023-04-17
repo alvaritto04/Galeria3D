@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario_registro</title>
+</head>
+
+<body>
+    <fieldset>
+        <form name="formulario_registro" method="post" action="mailto:raul.rodriguez@universidadeuropea.es">
+            <h1>FORMULARIOS DE REGISTRO</h1>
+            Nombre: <input type="text" name="" id="" required>
+            <br><br> Apellido1: <input type="text" name="" id="" required>
+            <br><br> Apellido2: <input type="text" name="" id="" required>
+            <br><br> Correo: <input type="text" name="" id="" required>
+            <br><br> Sexo:
+            <input type="radio" name="genero" id="" value="H">Hombre
+            <input type="radio" name="genero" id="" value="M">Mujer
+            <br><br> Población: <input list="pobl" required>
+            <datalist id="pobl">
+                <option value="Madrid"></option>
+                <option value="Barcelona"></option>
+                <option value="Sevilla"></option>
+                <option value="Valencia"></option>
+        </datalist>
+            <br><br> Descripción: <textarea placeholder="" rows="3,5" cols="30" name="texto"></textarea>
+            <br><br>
+            <input type="checkbox" name="aceptar" id="" value="aceptar" required>Deseo recibir información sobre novedades y ofertas<br>
+            <input type="checkbox" name="aceptar" id="" value="aceptar" required>Declaro haber leido y aceptado las condiciones generales del programa y la normativa sobre protección de datos<br>
+            <input type="submit" value="ENVIAR"></form>
+
+    </fieldset>
+
+</body>
+
+</html>

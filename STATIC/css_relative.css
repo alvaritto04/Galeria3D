@@ -1,0 +1,13 @@
+.realtive1 {
+    border-style: solid;
+    position: relative;
+}
+
+.realtive2 {
+    border-style: solid;
+    position: relative;
+    top: -5px;
+    left: 20px;
+    background-color: red;
+    width: 500px;
+}

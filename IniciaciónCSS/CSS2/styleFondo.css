@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "veloz";
+    src: url(font/veloz.otf)
+}
+
+@font-face {
+    font-family: "starjedi";
+    src: url(font/Starjedi.ttf);
+}
+
+body {
+    /*background-color: brown;*/
+    background-image: url(img/pikachu.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /*opacity: 0.5;*/
+}
+
+h1 {
+    background-color: coral;
+    color: darkslateblue;
+    font-family: "veloz";
+    font-size: 42px;
+}
+
+p {
+    color: white;
+    font-family: "starjedi";
+    font-size: 32px;
+}
+
+.letra {
+    font-family: 'Rubik Glitch', cursive;
+    color: darkblue;
+}

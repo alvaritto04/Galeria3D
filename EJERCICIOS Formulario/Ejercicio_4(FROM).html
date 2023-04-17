@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+</head>
+
+<body>
+    <form name="EjemploFormulario" method="post" action="mailto:raul.rodriguez@universidadeuropea.es">
+        <fieldset>
+            <legend align="center">FORMULARIO DE REGISTRO</legend>
+            <fieldset>
+                <h4>Datos de la cuenta:</h4>
+                Usuario: <input type="text" name="" id="" minlength="3" maxlength="40" required>
+                <br><br>Correo Electronico <input type="email" name="" id="" required>
+                <br><br> Pasword: <input type="password" minlength="5" maxlength="20" required>
+                <br><br>Repetir Pasword: <input type="password" minlength="5" maxlength="20" required>
+                <br><br> Codigo Postal: <input type="text" name="" id="" maxlength="5">
+                <h4>Datos personales: </h4>
+                SEXO:
+                <input type="radio" name="genero" id="" value="H">Hombre
+                <input type="radio" name="genero" id="" value="M">Mujer
+                <br><br> Ciudad: <input list="ciud" required>
+                <datalist id="ciud">
+                    <option value="Madrid"></option>
+                    <option value="Barcelona"></option>
+                    <option value="Bilbao"></option>
+                    <option value="Malaga"></option>
+                    <option value="Oporto"></option>
+                    <option value="Lisboa"></option>
+                    <option value="Londres"></option>
+                    <option value="New York"></option>
+                </datalist><br><br> legalidades: <br><input type="radio" name="aceptar" id="" value="aceptar" required>Acepto los términos de condiciones de uso<br>
+                <br>
+                <input type="submit" value="REGISTRAR">
+                <input type="reset" value="REINICIAR">
+            </fieldset>
+        </fieldset>
+    </form>
+</body>
+
+</html>

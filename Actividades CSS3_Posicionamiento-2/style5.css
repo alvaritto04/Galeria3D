@@ -1,0 +1,107 @@
+body {
+    background-color: INDIANRED;
+}
+
+h1 {
+    color: AZURE;
+    text-align: center;
+    font-family: TITULO;
+}
+
+@font-face {
+    font-family: TITULO;
+    src: url(font/Webcomic\ Bros.ttf);
+}
+
+.HTML5 {
+    color: azure;
+    background-color: CORNFLOWERBLUE;
+    width: 920px;
+    left: 200px;
+    height: 40px;
+    position: relative;
+}
+
+h2 {
+    margin-top: 5px;
+    position: absolute;
+    margin-left: 3px;
+}
+
+.PIEPAGINA {
+    position: fixed;
+    bottom: 0px;
+    background-color: darkred;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    left: 0px;
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.CUADRO {
+    width: 670px;
+    height: 120px;
+    top: 10px;
+    left: 320px;
+    position: relative;
+    color: black;
+    font-size: 11.7px;
+}
+
+.CUADRO2 {
+    width: 670px;
+    height: 120px;
+    left: 320px;
+    position: relative;
+    top: 27px;
+    color: black;
+    font-size: 12px;
+}
+
+.CSS3 {
+    color: azure;
+    background-color: CORNFLOWERBLUE;
+    width: 920px;
+    left: 200px;
+    height: 40px;
+    position: relative;
+    top: 16px;
+}
+
+.LOGOHTML5 {
+    width: 80px;
+    height: 110px;
+    margin-top: 2px;
+    margin-left: 2px;
+    float: left;
+    margin-right: 10px;
+}
+
+.LOGOCSS3 {
+    width: 80px;
+    height: 110px;
+    margin-top: 2px;
+    margin-left: 2px;
+    float: left;
+    margin-right: 10px;
+}
+
+.PROG {
+    position: absolute;
+    left: 500px;
+    top: 490px;
+    padding-bottom: 90px;
+}
+
+.AZUL {
+    color: blue;
+}
+
+.VGCOLOR {
+    background-color: white;
+}

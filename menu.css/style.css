@@ -1,0 +1,41 @@
+body {
+    background-image: url(img/UEM.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+
+/*div {
+    margin: auto;
+    width: 800px;
+    height: auto;
+}*/
+
+ul {
+    list-style: none;
+    text-align: center;
+}
+
+li {
+    background-color: greenyellow;
+    border: 1px solid white;
+    /*float: left;*/
+    margin-right: 10px;
+    padding: 0px 4px;
+    width: 100px;
+    /*Display nos sirve para ajustar al centro bien, en vez de crear un div*/
+    display: inline-block;
+}
+
+a {
+    color: rgb(14, 95, 55);
+    padding: 0px 4px;
+    text-decoration: none;
+}
+
+li:hover {
+    color: white;
+    background-color: yellow;
+}

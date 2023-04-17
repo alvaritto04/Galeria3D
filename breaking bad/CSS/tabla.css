@@ -1,0 +1,96 @@
+body {
+    background-color: #0c3e11;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+table {
+    background-color: black;
+    height: 500px;
+    border-spacing: 5px;
+}
+
+.arribaIMG {
+    width: 30px;
+}
+
+.colorArriba {
+    background-color: #b5db24;
+    height: 10%;
+    font-size: 25px;
+}
+
+.colorImagen {
+    background-color: #848D5A;
+    font-size: 25px;
+}
+
+.colorDERECHA {
+    background-color: #cce268;
+    font-size: 25px;
+    height: 10%;
+}
+
+.colorDERECHA2 {
+    background-color: grey;
+    font-size: 25px;
+    height: 10%;
+}
+
+.colorABAJO {
+    background-color: #d9e88a;
+    font-size: 25px;
+    height: 10%;
+    width: 80px;
+}
+
+.colorBLANCO {
+    background-color: white;
+    font-size: 25px;
+    height: 10%;
+}
+
+.tr {
+    height: 70px;
+}
+
+#MORADO {
+    font-size: 25px;
+    background-color: purple;
+}
+
+.VERDEMEDIO {
+    background-color: #85a119;
+    font-size: 25px;
+}
+
+.VERDECLARITO {
+    background-color: #89a415;
+    font-size: 25px;
+}
+
+.VERDEOSCURO {
+    background-color: #636f2e;
+    font-size: 25px;
+}
+
+#tdimagen {
+    width: 80px;
+}
+
+.trTABLA2 {
+    height: 70px;
+}
+
+.tdTABLA2 {
+    width: 80px;
+    background-color: #c2c629;
+    font-size: 25px;
+    height: 70px;
+}
+
+#TABLAABAJO {
+    height: 140px;
+    width: 800px;
+}

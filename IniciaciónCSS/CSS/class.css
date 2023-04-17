@@ -1,0 +1,37 @@
+.pokemon {
+    background-color: blue;
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+}
+
+div {
+    background-color: red;
+    margin: 1rem;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.planta {
+    background-color: #1abc1f;
+    color: #16a085;
+}
+
+.agua {
+    background-color: rgb(40, 40, 177);
+    color: #377e70;
+}
+
+.fuego {
+    background-color: #bd2f2f;
+    color: #adb44a;
+}
+
+.electrico {
+    background-color: #c3d422;
+    color: #cf2121;
+}

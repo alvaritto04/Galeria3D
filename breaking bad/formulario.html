@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="icon" href="img/logo.PNG">
+    <title>Formulario</title>
+</head>
+
+<body align="center">
+    <h1><b>Breaking Bad – Que comience el juego!</b></h1>
+    <table border="1px">
+        <form name="Formulario" method="post" action="mailto:raul.rodriguez@universidadeuropea.es">
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <p>Nombre <input type="text" name="" id="" required></p>
+                <p>Apellido <input type="text" name="" id="" required></p>
+                <p>Dni <input type="number" name="" id="" maxlength="8"></p>
+                <p>Sexo <input type="radio" name="sexo" id="" value="H">Hombre<input type="radio" name="sexo" id="" value="M">Mujer</p>
+                <p>Fecha Nacimiento <input type="date" name="date" id=""></p>
+                <p>Personajes <input list="Personajes">
+                    <datalist id="Personajes">
+                    <option value="Jessie Pinkman"></option>
+                    <option value="Walter White"></option>
+                    <option value="Saul Goodman"></option>
+                    <option value="Gustavo Fring"></option>
+                    <option value="Pollos Hermanos"></option>
+                    <option value="Otros Personajes"></option>
+                </datalist></p>
+                <p>Comentarios <textarea placeholder="" rows="7.5" cols="35" name="texto"></textarea></p>
+            </fieldset>
+            <fieldset>
+                <legend>Dirección Postal</legend>
+                <p>Calle <input type="text" name="" id=""></p>
+                <p>Numero <input type="text" name="" id=""></p>
+                <p>Piso <input type="number" name="" id="" maxlength="8"></p>
+                <p>Dirección Postal <input type="text" name="" id="" required></p>
+                <p>Ciudad <input type="text" name="" id=""></p>
+                <p>Correo Electronico <input type="email" name="" id="" required></p>
+            </fieldset>
+            <p>Opcion de enviar o resetear<input type="submit" value="Enviar"><input type="reset" value="Restablecer"></p>
+    </table>
+
+    </form>
+    </table>
+</body>
+
+</html>

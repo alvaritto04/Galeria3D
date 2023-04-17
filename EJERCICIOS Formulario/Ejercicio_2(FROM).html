@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+
+<body>
+    <fieldset>
+        <form name="formulario_registro" method="post" action="mailto:raul.rodriguez@universidadeuropea.es">
+            <legend>Datos Personales</legend>
+            Usuario: <input type="text" name="" id="" required>
+            <br><br> Departamento: <input list="depart" required>
+            <datalist id="depart">
+        <option value="informatica"></option>
+        <option value="marketing"></option>
+        <option value="admisiones"></option>
+        <option value="dirección"></option>
+        <option value="empresas"></option>
+        </datalist>
+            <br><br> Contraseña: <input type="password" minlength="4" maxlength="8" required>
+            <br><br> Descripción: <textarea placeholder="" rows="3,5" cols="17" name="texto"></textarea>
+
+            <fieldset>
+                <legend>Botones de reset y envio</legend>
+                <input type="submit" value="ENVIAR">
+                <input type="reset" value="BORRAR"></form>
+        </fieldset>
+    </fieldset>
+</body>
+
+</html>

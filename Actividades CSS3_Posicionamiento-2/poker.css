@@ -1,0 +1,398 @@
+body {
+    background-color: green;
+    align-items: center;
+}
+
+.FONDO1 {
+    position: relative;
+    top: 55px;
+    left: 80px;
+}
+
+.VACIO {
+    position: absolute;
+    top: 50px;
+    left: 230px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    width: 110px;
+    height: 160px;
+}
+
+.VACIO1 {
+    position: absolute;
+    top: 50px;
+    left: 530px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    width: 110px;
+    height: 160px;
+}
+
+.VACIO2 {
+    position: absolute;
+    top: 50px;
+    left: 670px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    width: 110px;
+    height: 160px;
+}
+
+.VACIO3 {
+    position: absolute;
+    top: 50px;
+    left: 810px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    width: 110px;
+    height: 160px;
+}
+
+.VACIO4 {
+    position: absolute;
+    top: 50px;
+    left: 950px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    width: 110px;
+    height: 160px;
+}
+
+.Corazones {
+    position: relative;
+    top: 75px;
+    left: 55px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    width: 110px;
+    height: 160px;
+    text-align: left;
+    font-size: 25px;
+    color: red;
+}
+
+.FONDO2 {
+    position: relative;
+    top: -86px;
+    left: 190px;
+}
+
+.TREBOR {
+    position: absolute;
+    top: 271px;
+    left: 201px;
+    background-color: white;
+    width: 110px;
+    height: 160px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.FONDO3_1 {
+    position: relative;
+    top: -86px;
+    left: 209px;
+}
+
+.FONDO4_1 {
+    position: relative;
+    top: -86px;
+    left: 286px;
+}
+
+.FONDO5_1 {
+    position: relative;
+    top: -86px;
+    left: 310px;
+}
+
+.FONDO6_1 {
+    position: relative;
+    top: -86px;
+    left: 334px;
+}
+
+.FONDO7_1 {
+    position: relative;
+    top: -86px;
+    left: 358px;
+}
+
+.FONDO3_2 {
+    position: absolute;
+    top: 270px;
+    left: 335px;
+}
+
+.CARTA3_3 {
+    position: absolute;
+    top: 291px;
+    left: 338px;
+    background-color: white;
+    width: 110px;
+    height: 160px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.FONDO4_2 {
+    position: absolute;
+    top: 270px;
+    left: 528px;
+}
+
+.FONDO4_3 {
+    position: absolute;
+    top: 289px;
+    left: 528px;
+}
+
+.CARTA4_4 {
+    position: absolute;
+    top: 309px;
+    left: 531px;
+    background-color: white;
+    width: 110px;
+    height: 160px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.FONDO5_2 {
+    position: absolute;
+    top: 270px;
+    left: 670px;
+}
+
+.FONDO5_3 {
+    position: absolute;
+    top: 289px;
+    left: 670px;
+}
+
+.FONDO5_4 {
+    position: absolute;
+    top: 309px;
+    left: 670px;
+}
+
+.CARTA5_5 {
+    position: absolute;
+    top: 328px;
+    left: 673px;
+    background-color: white;
+    width: 110px;
+    height: 160px;
+    text-align: left;
+    font-size: 25px;
+    color: red;
+}
+
+.FONDO6_2 {
+    position: absolute;
+    top: 270px;
+    left: 810px;
+}
+
+.FONDO6_3 {
+    position: absolute;
+    top: 289px;
+    left: 810px;
+}
+
+.FONDO6_4 {
+    position: absolute;
+    top: 309px;
+    left: 810px;
+}
+
+.FONDO6_5 {
+    position: absolute;
+    top: 328px;
+    left: 810px;
+}
+
+.CARTA6_6 {
+    position: absolute;
+    top: 347px;
+    left: 813px;
+    background-color: white;
+    width: 110px;
+    height: 160px;
+    text-align: left;
+    font-size: 25px;
+    color: red;
+}
+
+.FONDO7_2 {
+    position: absolute;
+    top: 270px;
+    left: 951px;
+}
+
+.FONDO7_3 {
+    position: absolute;
+    top: 289px;
+    left: 951px;
+}
+
+.FONDO7_4 {
+    position: absolute;
+    top: 309px;
+    left: 951px;
+}
+
+.FONDO7_5 {
+    position: absolute;
+    top: 328px;
+    left: 951px;
+}
+
+.FONDO7_6 {
+    position: absolute;
+    top: 347px;
+    left: 951px;
+}
+
+.CARTA7_7 {
+    position: absolute;
+    top: 366px;
+    left: 954px;
+    background-color: white;
+    width: 110px;
+    height: 160px;
+    text-align: left;
+    font-size: 25px;
+}
+
+.ASGRANDE {
+    position: absolute;
+    top: 30px;
+    left: 15px;
+}
+
+.REY {
+    position: absolute;
+    top: 5px;
+    left: 3px;
+}
+
+.ROMBO1 {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    height: 35px;
+    width: 25px;
+}
+
+.ROMBO2 {
+    position: absolute;
+    top: 100px;
+    left: 40px;
+    height: 35px;
+    width: 25px;
+}
+
+.Corazon1 {
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    height: 35px;
+    width: 25px;
+}
+
+.Corazon2 {
+    position: absolute;
+    top: 16px;
+    left: 64px;
+    height: 35px;
+    width: 25px;
+}
+
+.Corazon3 {
+    position: absolute;
+    top: 48px;
+    left: 16px;
+    height: 35px;
+    width: 25px;
+}
+
+.Corazon4 {
+    position: absolute;
+    top: 48px;
+    left: 64px;
+    height: 35px;
+    width: 25px;
+}
+
+.Corazon5 {
+    position: absolute;
+    top: 82px;
+    left: 16px;
+    height: 35px;
+    width: 25px;
+}
+
+.Corazon6 {
+    position: absolute;
+    top: 82px;
+    left: 64px;
+    height: 35px;
+    width: 25px;
+}
+
+.Corazon7 {
+    position: absolute;
+    top: 115px;
+    left: 16px;
+    height: 35px;
+    width: 25px;
+}
+
+.Corazon8 {
+    position: absolute;
+    top: 115px;
+    left: 64px;
+    height: 35px;
+    width: 25px;
+}
+
+.Corazon9 {
+    position: absolute;
+    top: 65px;
+    left: 42px;
+    height: 35px;
+    width: 25px;
+}
+
+.Corazon7_1 {
+    position: absolute;
+    top: 90px;
+    left: 42px;
+    height: 35px;
+    width: 25px;
+}
+
+.Corazon7_2 {
+    position: absolute;
+    top: 70px;
+    left: 16px;
+    height: 35px;
+    width: 25px;
+}
+
+.Corazon7_3 {
+    position: absolute;
+    top: 70px;
+    left: 64px;
+    height: 35px;
+    width: 25px;
+}
